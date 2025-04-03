@@ -1,0 +1,25 @@
+/* Navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navLink:hover {
+    text-decoration: underline;
+  }
+  
